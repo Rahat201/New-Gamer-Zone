@@ -221,4 +221,59 @@ nav h3{
     border: 3px solid #F948B2;
     border-radius: 40px;
 }
- 
+ /* footter-section */
+ footer{
+    background-color: #0B0223;
+ }
+ .footer-logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+ .footer-logo-g{
+    color: #FF42A5;
+ }
+ .footer-logo h3{
+    
+    font-family: Work Sans;
+    font-size: 45px;
+    font-weight: 700;
+    color: #FFF;
+ }
+
+ .servise-section{
+    list-style: none;
+    display:flex;
+    justify-content: space-around;
+    padding: 0px 100px;
+    color: #FFF;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 18px;
+    font-weight: 600;  
+ }
+.social-media{
+    padding: 20px 300px;
+    display: flex;
+    justify-content: space-around;
+    gap:50px
+}
+.Terms-and-Conditions-section{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    padding: 0px 200px;
+    color: rgba(255, 255, 255, 0.60);
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 16px;
+    font-weight: 500;
+}
+.footer-text{
+    color: rgba(255, 255, 255, 0.60);
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 16px;
+    font-weight: 500;
+    padding-bottom: 100px;
+}
