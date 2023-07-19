@@ -11,6 +11,20 @@
     font-size: 48px;
     font-weight: 700;
 }
+.btn-primary{
+    background-color: #FF42A5;
+    padding: 20px 40px;
+    border-radius: 48px;
+    color: #FFF;
+    font-family: Work Sans;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+    border: none;
+}
+.btn-primary:hover{
+    cursor: pointer;
+}
 
 /* nav-bar-container */
 nav{
@@ -97,18 +111,6 @@ nav h3{
 .banner-img{
     height: 540px;
 }
-.sign-in-btn{
-    background-color: #FF42A5;
-    padding: 20px 40px;
-    border-radius: 48px;
-    color: #FFF;
-    font-family: Work Sans;
-    font-size: 20px;
-    font-weight: 600;
-    text-transform: uppercase;
-    border: none;
-    
-}
 .go-rogue-btn{
     background: #4EC5F7;
     border-radius: 48px;
@@ -119,6 +121,40 @@ nav h3{
     font-weight: 600;
     text-transform: uppercase;
     border: none;
+}.go-rogue-btn:hover{
+    cursor: pointer;
+}
+.
+    /* <!-- We are gamer-section --> */
+.We-are-gamer-section{
+    background-color:rgba(255, 66, 165, 0.03);
+    display: flex;
+    justify-content: space-between;
+    text-align: right;
+    padding: 30px 100px;
+}
+.We-are-gamer-img{
+    width: 700px;
+}
+.We-are-gamer-text{
+    margin-top: 60px;
+    text-align: right;
+    margin-right: 150px;
+    margin-top: -370px;
+}
+.We-are-gamer-section p{
+    color: #534C64;
+    text-align: right;
+    font-family: Work Sans;
+    font-size: 18px;
+    font-weight: 400;
+}
+.We-are-gamer-text h3{
+    color: #534C64;
+    text-align: right;
+    font-family: Work Sans;
+    font-size: 24px;
+    font-weight: 500;
 }
 /* Online Games Funny Videos card section */
 .card-section h3{
@@ -191,7 +227,10 @@ nav h3{
     left: -200px;
 }
  /* Gmaes-section-btn  */
-
+ .games-main-container{
+        margin-top:-200px;
+        margin-bottom:50px;
+    }
  .games-container{
     display: flex;
     align-items: center;
@@ -214,9 +253,7 @@ nav h3{
     grid-template-columns: repeat(4,1fr) ;
     gap: 10px;
 }
-.games-main-container{
-    margin-top:-200px;
-}
+
 .games-container:hover{
     border: 3px solid #F948B2;
     border-radius: 40px;
