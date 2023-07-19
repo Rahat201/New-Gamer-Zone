@@ -195,16 +195,6 @@ nav h3{
 .card-3-image{
     display: block;
 }
-.card-3-image:hover{
-
-}
-
-
-
-
-
-
-
 /* <!-- Play Instantly relative image section-1--> */
 .Play-instantly-section-1{
     display: flex;
@@ -290,7 +280,9 @@ nav h3{
     width: 650px;
     height:580px ;
 }
-
+.Careers-containt-btn:hover{
+    cursor: pointer;
+}
 
 
 
