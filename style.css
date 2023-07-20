@@ -212,8 +212,8 @@ nav h3{
 .team-img:hover .team-details{
     opacity: 1;
     margin-left:60%;
-    color: #F948B2;
-}
+    color: red;}
+    
 .team-img:hover .overlay{
     opacity: 1;
     align-items: center;
