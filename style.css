@@ -8,7 +8,7 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-family: Work Sans;
-    font-size: 48px;
+    font-size: 3rem;
     font-weight: 700;
 }
 .btn-primary{
@@ -17,7 +17,7 @@
     border-radius: 48px;
     color: #FFF;
     font-family: Work Sans;
-    font-size: 20px;
+    font-size: 1.25rem;
     font-weight: 600;
     text-transform: uppercase;
     border: none;
@@ -151,14 +151,15 @@ nav h3{
     color: #534C64;
     text-align: right;
     font-family: Work Sans;
-    font-size: 18px;
+    font-size: 1.25rem;
     font-weight: 400;
+    padding-top: 20px;
 }
 .We-are-gamer-text h3{
     color: #534C64;
     text-align: right;
     font-family: Work Sans;
-    font-size: 24px;
+    font-size: 1.5rem;
     font-weight: 500;
 }
 /* Online Games Funny Videos card section */
@@ -213,7 +214,7 @@ nav h3{
     opacity: 1;
     margin-left:60%;
     color: red;}
-    
+
 .team-img:hover .overlay{
     opacity: 1;
     align-items: center;
@@ -243,7 +244,7 @@ nav h3{
 .Play-instantly-section-1 h3{
     text-align: right;
     font-family: Work Sans;
-    font-size: 48px;
+    font-size: 3rem;
     font-weight: 700;
     color: #0B0223;
 }
@@ -251,7 +252,7 @@ nav h3{
     color: #534C64;
     text-align: right;
     font-family: Work Sans;
-    font-size: 18px;
+    font-size: 1.25rem;
     margin-top:-20px;
 }
 .play-instant-img{
@@ -295,9 +296,11 @@ nav h3{
     justify-content: space-between;
     color: #FFF;
     font-family: Work Sans;
-    font-size: 20px;
-    font-weight: 600;
+    font-size: 1.2rem;
+    font-weight: 500;
+    padding-bottom: 30px;
 }
+
 .Careers-containt-btn{
     font-family: Work Sans;
     font-size: 20px;
@@ -308,9 +311,10 @@ nav h3{
     border-radius: 48px;
     background: #FFF;
     color:#FF42A5;
-    border-radius: none
-    ;
+    border-radius: none;S
+    
 }
+
 
 .Careers-img{
     width: 650px;
@@ -319,9 +323,6 @@ nav h3{
 .Careers-containt-btn:hover{
     cursor: pointer;
 }
-
-
-
 
  /* Gmaes-section-btn  */
 .games-main-container{
@@ -416,7 +417,7 @@ nav h3{
 
 
 
-@media screen and (max-width:426) {
+@media screen and (max-width:576px) {
     header{
         padding: 20px;
     }
@@ -428,10 +429,26 @@ nav h3{
         flex-direction: column-reverse;
         align-items: center;
     }
+    .banner-img{
+        padding-top: 50px;
+        width: 400px;
+    }
     .We-are-gamer-section{
         flex-direction: column-reverse;
-        align-items: center;}
-    
+        align-items:center}
+    .We-are-gamer-img{
+            width:400px;
+    }
+    .We-are-gamer-text{
+        padding-top: 50px;
+        margin-top: 20px;
+    }
+    .We-are-gamer-text h3{
+        text-align: center;
+    }
+    .We-are-gamer-text p{
+        text-align: center;
+    }
     .card-section{
         align-items: center;}
         
@@ -439,11 +456,41 @@ nav h3{
         grid-template: repeat(1,1fr);
     }
     .Play-instantly-section-1{
-        flex-direction: column-reverse;
+        flex-direction: column;
+        align-items: center;
+        margin-top: -30px;
+    }
+    .Play-instantly-section-1 h3{
+        text-align: center;
+    }
+    .Play-instantly-section-1 p{
+        text-align: center;
+    }
+    .play-instant-img{
+        width:300px;
+    }
+    .play-instant-img-1{
+        width: 200px;
+        margin-left: 120px;
+        margin-top: 100PX;
+    }
+    .Careers-section{
+        flex-direction: column;
+    }
+    .Careers-containt{
+        text-align: center;
+    }
+    .games-main-container{
         align-items: center;
     }
     .games-btn{
-        grid-template: repeat(3,1fr);
+        grid-template-columns: repeat(1,1fr);
+        align-items: center;
+        margin-left: 45px;
+    }
+    .gmaes-btn-2{
+        grid-template-columns: repeat(1,1fr);
+        align-items: center;
     }
     .footer{
     align-items: center;
